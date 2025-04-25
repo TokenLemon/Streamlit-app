@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import os
 
-st.title("Employee Compensation Calculator")
+st.title("Employee Compensation Cost Calculator")
 
-# File uploader widget
+# File uploader widget change
 uploaded_file = st.file_uploader("Upload Employee Data (Excel or CSV)", type=["xlsx", "csv"])
 
 if uploaded_file is not None:
