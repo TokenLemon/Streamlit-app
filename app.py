@@ -8,7 +8,7 @@ from googleapiclient.discovery import build
 from google.auth.transport.requests import Request
 import pickle
 
-# Google Sheets API scope
+# Google Sheets API scope t
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 
 st.title("Employee Compensation Calculator")
